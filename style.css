@@ -1,0 +1,144 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    width: 400px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-image: url("media/sfondo.png");
+    background-repeat: repeat-y;
+    line-height: 110%;
+
+}
+/* HEADER */
+header{
+    background: rgb(11,109,168);
+    background: linear-gradient(90deg, rgba(11,109,168,1) 72%, rgba(21,80,150,1) 100%);
+    margin: 5% 10%;
+    border: 1px solid black;
+}
+header img{
+    display: inline-block;
+    text-align: center;
+}
+header p{
+    color: white;
+    text-shadow: 2px 2px 2px rgb(10, 0, 7);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 3%;
+}
+
+main, aside{
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid rgba(116, 117, 118, 0.699);
+}
+h1{
+    font-size: 180%;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: start;
+    padding: 5%;
+}
+
+h2{
+    margin: 10%;
+}
+main p{
+    margin: 5%;
+}
+
+main ul{
+    margin: 10%;
+    list-style: disc;
+}
+
+main ol{
+    margin: 10% ;
+    list-style: decimal;
+}
+
+code{
+    background-color: rgba(145, 165, 177, 0.384);
+    border: 1px solid grey;
+    border-radius: 15%;
+    
+}
+
+nav ul li a{
+    display: block;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(10, 0, 7);
+    text-decoration: none;
+    text-align: center;
+    padding: 2%;
+}
+
+table{
+    margin: 10%;
+}
+
+iframe{
+    margin: auto;
+   display: block;
+   border-radius: 5%;
+}
+.newsletter{
+    margin: 5%;
+    background-color: rgba(201, 143, 234, 0.358);
+}
+
+.newsletter h2, aside h2{
+    text-align: center;
+    text-transform: uppercase ;
+    font-size: large;
+    padding: 5%;
+}
+
+aside div{
+    margin: 5%;
+    height: 100px;
+    background-color: rgba(201, 143, 234, 0.358);
+    border: 2px solid rgba(116, 117, 118, 0.699);
+
+}
+
+footer{
+    background: rgb(11,109,168);
+    background: linear-gradient(90deg, rgba(11,109,168,1) 72%, rgba(21,80,150,1) 100%);
+    margin: 5% 10%;
+    border: 1px solid black;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(10, 0, 7);
+    padding: 3%;
+}
+
+footer address{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(10, 0, 7);
+    padding: 3%;
+}
+
+footer address a{
+    color: rgb(189, 15, 131);
+    text-shadow: 2px 2px 2px rgb(10, 0, 7);
+    font-weight: 700;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+
